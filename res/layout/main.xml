@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--com.jt.act.ImageBtnWithText
+	    android:id="@+id/imageBtnWithText"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="xml组合组件"
+	    android:src="@drawable/cut"
+	   
+	    /-->
+    
+      <project.ui.BDLocationLayout
+                android:id="@+id/bmapView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_span="3"
+                android:clickable="true" />
+</LinearLayout>

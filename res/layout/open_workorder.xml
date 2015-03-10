@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".act.workprocess.ReadWorkOrderActivity" >
+
+    <TableLayout
+        android:id="@+id/readworkordertable"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:background="@color/black"
+        android:stretchColumns="*" >
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1" 
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/BT_OK"
+                style="@style/btn_default"
+                android:text="启动维修" />
+
+            <Button
+                android:id="@+id/BT_CANCEL"
+                style="@style/btn_default"
+                android:text="无法到达" />
+
+        </TableRow>
+        
+        
+    </TableLayout>
+
+</LinearLayout>

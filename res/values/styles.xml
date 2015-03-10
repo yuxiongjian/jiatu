@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="StatusBarBackground">
+        <item name="android:background">@drawable/bitmap_repeat</item>
+    </style>
+
+    <style name="XTheme" parent="android:Theme">
+
+        <!-- Window attributes -->
+        <item name="android:windowTitleBackgroundStyle">@style/StatusBarBackground </item>
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColorPrimaryInverse">@android:color/primary_text_light</item>
+    </style>
+
+    <style name="yut">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="tablehead">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:background">@color/gray</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center|fill</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="tablehead2">
+
+        <!--
+        item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item
+        -->
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:background">@color/headgray</item>
+        <item name="android:textColor">@color/thtext</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="RowHeadStyle">
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:background">@color/textbkcolor</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center|fill</item>
+    </style>
+
+    <style name="tabletextstyle">
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center|fill</item>
+    </style>
+
+    <style name="tabletextcenter">
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center|fill</item>
+    </style>
+
+    <style name="tabletextright">
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">12sp</item>
+        <!-- item name="android:textStyle">bold</item -->
+        <item name="android:layout_gravity">center|fill</item>
+    </style>
+
+    <style name="listtextstyle">
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center|fill</item>
+    </style>
+
+    <style name="Translucent_notitle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--
+             Note that we use the base animation style here (that is no
+             animations) because we really have no idea how this kind of
+             activity will be used.
+        -->
+
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="btn_default">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+         <item name="android:textColor">@color/blue</item>
+        <item name="android:layout_gravity">center</item>
+         <item name="android:minHeight">30dp</item><!-- default will be 48 for buttons -->
+        <item name="android:background">@drawable/button_style1</item>
+    </style>
+
+</resources>

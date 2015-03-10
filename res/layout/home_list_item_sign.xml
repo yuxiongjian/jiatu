@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/alpha"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#333333"
+        android:paddingLeft="10dip"
+        android:textColor="#FFFFFF"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/ListItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/alpha"
+        android:layout_toLeftOf="@+id/signBox"
+        android:paddingLeft="5dp"
+        android:paddingTop="2dp"
+        android:singleLine="false"
+        android:text="ListItemName"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/ListItemBref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ListItemName"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:text="ListItemBre"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ListItemBref"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:text="type"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/type"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:text="address"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:id="@+id/ListItemTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_alignTop="@+id/ListItemName"
+        android:layout_toLeftOf="@+id/signBox"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:singleLine="true"
+        android:text="ListItemTime"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/signBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ListItemBref"
+        android:layout_alignRight="@+id/ListItemBref"
+        android:layout_alignTop="@+id/ListItemName"
+        android:layout_marginTop="3dp"
+        android:background="@color/black"
+        android:button="@drawable/checkbox"
+        android:checked="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="top"
+        android:paddingTop="2dp"
+        android:text="     "
+        android:textColor="@color/blue" />
+
+    <TextView
+        android:id="@+id/Listline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="false"
+        android:layout_below="@id/address"
+        android:background="@color/TextColorGray" />
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JT APP</string>
+    <string name="app1">CHIC Contact</string>
+    <string name="app2">CHIC BPM</string>
+    <string name="app3">CHIC Message</string>
+    <string name="app4">CHIC Files</string>
+    <string name="app5">CHIC Files</string>
+    <string name="app6">CHIC Files</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_login">佳图阳光服务</string>
+    <string name="un">用户</string>
+    <string name="pd">密码</string>
+    <string name="fragment_tabs">fragment_tabs</string>
+    <string name="VenderType">Vender Type</string>
+    <string name="title_activity_price_tab">BPM FLOW</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_cocoitems_list">CTF Fruit Purchase</string>
+    <string name="title_cocoitems_detail">CocoItems Detail</string>
+    <string name="title_activity_matureprice">Mature Price</string>
+    <string name="title_activity_young_price">YoungPriceActivity</string>
+    <string name="title_activity_bpmprice">CTF Fruit Purchase</string>
+    <string name="title_activity_bpmleave">BPM Leave Aprroval</string>
+    <string name="title_activity_pine_price">PinePriceActivity</string>
+    <string name="title_activity_commit_page">CommitPage</string>
+    <string name="title_taskitem_list">TaskItemList</string>
+    <string name="title_taskitem_detail">TaskItem Detail</string>
+    <string name="title_taskflow_list">CTF Fruit Purchase</string>
+    <string name="title_taskflow_detail">TaskFlow Detail</string>
+    <string name="title_activity_factor">FactorActivity</string>
+    <string name="Comments">Comments</string>
+    <string name="HtmlAct">Leave Aprroval</string>
+    <string name="commitbtn">Commit</string>
+    <string name="Rejectbtn">reject_btn</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="title_activity_bpmlogin">JT APP</string>
+     <string name="maintain">保养</string>
+     <string name="checkpaper">抄张</string>
+    <string name="message">消息</string>
+    <string name="newworkorder">已派</string>
+    <string name="pickworkorder">启动</string>
+    <string name="openworkorder">到达</string>
+    <string name="solveworkorder">待签</string>
+     <string name="signworkorder">已签</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">User Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_register">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_warn">You must sign in to use this function</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="load_data">努力加载中....</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="Process_list">Process List</string>
+    <string name="taskslist">Tasks List</string>
+    <string name="input_your_comments">Input your Comments</string>
+    <string name="progress_fetch">Fetching...</string>
+    <string name="title_activity_save_machine_loc">打印机定位</string>
+    <string name="resolveui0">详情</string>
+    <string name="resolveui1">维修</string>
+    <string name="resolveui2">抄张</string>
+    <string name="resolveui3">结论</string>
+    <string name="resolveui4">送货</string>
+    <string name="resolveui5">抄张</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="showtime">获得时间</string>
+
+</resources>

@@ -1,0 +1,79 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="" >
+
+    <LinearLayout
+        android:id="@+id/process_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/load_data_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/load_data"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/lightblue" />
+    </LinearLayout>
+
+    <!--  >ScrollView
+        android:id="@+id/scroll_list_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black" -->
+
+        <RelativeLayout
+            android:id="@+id/list_form"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/black" >
+
+           
+
+            <project.ui.SlidingLinearLayout
+                android:id="@+id/slidingid"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                 >
+
+                <ListView
+                    android:id="@+id/rightpage_list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:cacheColorHint="#000000"
+                    android:divider="#00000000"
+                    android:fadingEdge="none"
+                    android:scrollbars="none"
+                    android:scrollingCache="false"
+                    android:visibility="visible" />
+            </project.ui.SlidingLinearLayout>
+
+            <TextView
+                android:id="@+id/fast_position"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_margin="34dip"
+                android:background="@drawable/sort_icon_bg_click"
+                android:gravity="center"
+                android:padding="2dip"
+                android:textColor="#404040"
+                android:textSize="48sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+    <!--  /ScrollView-->
+
+</merge>

@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+   <EditText
+        android:id="@+id/scantext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:ems="20" >
+
+    </EditText>
+    <Button
+        android:id="@+id/scan_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/scantext"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@id/scantext"
+        android:layout_alignLeft="@id/scantext"
+        android:background="@drawable/camera"
+        android:text="扫描" />
+
+   
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_vertical"
+    android:orientation="vertical" 
+     android:weightSum="1"
+   >
+
+    <TableLayout
+        android:id="@+id/check_history_table"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+    
+
+ 		 android:shrinkColumns="1,3"
+
+        android:stretchColumns="*"
+        android:layout_weight="0.9" >
+
+        
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+         android:layout_gravity="bottom"
+         android:layout_weight="0.1">
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom" >
+
+            <Button
+                android:id="@+id/BT_CANCEL"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_style1"
+                android:layout_weight="0.3"
+                android:text="返回" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">佳图阳光服务</string>
+    
+    <string name="app1">设备定位</string>
+    <string name="app2">任务管理</string>
+    <string name="app3">系统消息</string>
+    <string name="app4">预测</string>
+    <string name="app5">明日工单</string>
+      <string name="app6">调度员</string>
+     <string name="action_sign_warn">使用此功能需要请登录</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">设置</string>
+    <string name="title_activity_login">佳图阳光服务</string>
+    <string name="un">用户名</string>
+    <string name="pd">密码</string>
+ <string name="version">版本号</string>
+    <string name="action_settings">设置</string>
+
+    <string name="title_activity_commit_page">确认页面</string>
+    <string name="title_taskitem_list">审批列表</string>
+    <string name="title_taskitem_detail">审批详情</string>
+    <string name="title_taskflow_list">BPM 审批</string>
+    <string name="title_taskflow_detail">审批详情</string>
+    <string name="title_activity_factor">水果审批</string>
+    <string name="Comments">审核意见</string>
+    <string name="HtmlAct">审核</string>
+    <string name="commitbtn">同意</string>
+    <string name="rejectbtn">退回重审</string>
+    <string name="cancelbtn">取消</string>
+ 
+
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">用户名</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in_register">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="action_forgot_password">恢复密码</string>
+    <string name="login_progress_signing_in">登录中..</string>
+    <string name="error_invalid_email">用户名错误</string>
+    <string name="error_invalid_password">密码过短</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">必填项</string>
+    <string name="Process_list">流程类别</string>
+    <string name="taskslist">待审核</string>
+    <string name="input_your_comments">意见</string>
+     <string name="progress_fetch">获取中...</string>
+     <string name="title_activity_bpmleave">假期审批</string>
+      <string name="submit_error">提交错误，请联系系统管理员</string>
+    <string name="submit_ok">提交成功</string>
+    <string name="comment_error">请填写你的拒绝理由</string>
+
+</resources>

@@ -1,0 +1,17 @@
+1. copy 项目到另外目录
+2. import 新复制的项目,并选"复制到workspace"
+
+3. 修改 manisfest
+	 	package="*******"
+    	android:versionCode="110"
+    	android:versionName="0.10.28"
+
+4  修改  string.xml
+			 <string name="title_activity_login">佳图阳光客户端服务</string>
+			 <string name="app_name">兰溪神剑</string>
+			 或其他字样
+5  修改缺省logo
+6  全文替换java中资源引用 *.R 到 新的 **.R
+7  修改 MyConfig.java, mainUrl, 更新的包名 等等
+8  申请baidu key:  F5:20:34:F8:33:8B:B7:47:7C:36:8C:B3:03:6E:5A:6D:ED:77:9D:47;"package"
+9  清空项目, 重新编译

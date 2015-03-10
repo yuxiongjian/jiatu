@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  
+
+    <item
+        android:id="@+id/action_upgrade"
+        android:orderInCategory="90"
+        android:title="@string/action_upgrade">
+    </item>
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="@string/action_exit">
+    </item>
+   
+</menu>

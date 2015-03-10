@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="80dip"
+        android:background="@color/white"
+        android:minWidth="100dip"
+        android:orientation="vertical"
+        android:padding="2dp"
+        android:visibility="gone" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="定位icon"
+            android:visibility="visible" >
+
+            <RadioButton
+                android:id="@+id/defaulticon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="默认图标" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/customicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自定义图标" >
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:minWidth="100dip"
+        android:orientation="horizontal"
+        android:padding="2dp" >
+
+		 <ToggleButton
+		     android:id="@+id/loc_rec_follow"
+		     android:layout_width="wrap_content"
+		     android:layout_height="40dp"
+		     android:layout_alignParentBottom="true"
+		     android:layout_alignParentLeft="true"
+		     android:layout_below="@id/bmapView"
+		     android:layout_marginLeft="10dp"
+		     android:background="@drawable/button_style1"
+		     android:checked="true"
+		     android:enabled="true"
+		     android:textColor="#FF000000"
+		     android:textOff="跟随"
+		     android:textOn="不跟随"
+		     android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/loc_rec_start"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/bmapView"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_style1"
+            android:enabled="true"
+            android:text=">"
+            android:textColor="#FF000000"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/loc_rec_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/bmapView"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_style1"
+            
+            android:text="||"
+            android:textColor="#FF000000"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/loc_rec_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/bmapView"
+            android:layout_marginLeft="10dp"
+            style="@style/btn_default"
+       
+            android:text="█"
+            android:textColor="#FF000000"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>
